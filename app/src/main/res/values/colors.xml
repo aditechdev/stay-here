@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="logoOne">#AFB3B6</color>
+    <color name="logoTwo">#1E65A5</color>
+    <color name="richBlack">#000000</color>
+</resources>
