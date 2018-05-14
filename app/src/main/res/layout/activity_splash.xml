@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/logoOfTheApp"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="@dimen/oneeighty"
+        android:layout_height="@dimen/oneeighty"
         android:layout_centerInParent="true"
         android:src="@drawable/homelogo" />
 
@@ -24,15 +24,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stay"
+            android:text="@string/stay"
             android:textColor="@color/logoTwo"
-            android:textSize="32sp" />
+            android:textSize="@dimen/thirtytwo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Here "
+            android:text="@string/here"
             android:textColor="@color/logoOne"
-            android:textSize="32sp" />
+            android:textSize="@dimen/thirtytwosp" />
     </LinearLayout>
 </RelativeLayout>

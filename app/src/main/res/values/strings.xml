@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Stay Here</string>
+    <string name="stay_here">Stay Here</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="stay">Stay</string>
+    <string name="here">Here</string>
+    <string name="here">Here</string>
+    <string name="home">HOME</string>
+    <string name="boy_s_pg">Boy\'s Pg</string>
+    <string name="girl_s_pg">Girl\'s Pg</string>
+    <string name="flat">Flat</string>
+    <string name="hotel">Hotel</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_us">About Us</string>
 </resources>

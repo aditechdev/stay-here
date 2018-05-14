@@ -6,6 +6,10 @@
     <color name="logoOne">#AFB3B6</color>
     <color name="logoTwo">#1E65A5</color>
     <color name="richBlack">#000000</color>
+    <color name="colorhint">#d4d8dc</color>
+    <color name="white">#ffffff</color>
+    <color name="newpink">#ed074c</color>
+    <color name="darkblack">#141414</color>
 
 
 </resources>

@@ -5,11 +5,11 @@
     android:padding="25dp"
     android:orientation="vertical"
 
-    android:background="#141414"
+    android:background="@color/darkblack"
     style="@style/ThemeOverlay.AppCompat.Dark">
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
         android:src="@drawable/homelogo"/>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -18,16 +18,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stay"
-            android:textSize="25dp"
-            android:layout_marginRight="5dp"
+            android:text="@string/stay"
+            android:textSize="@dimen/twentyfivesp"
+            android:layout_marginRight="@dimen/five"
             style="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/logoTwo" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Here"
-            android:textSize="25dp"
+            android:text="@string/here"
+            android:textSize="@dimen/twentyfivesp"
             style="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/logoOne" />
     </LinearLayout>

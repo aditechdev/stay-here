@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="@dimen/onesixty"
         android:background="@drawable/bg_login"/>
 <LinearLayout
     android:layout_width="match_parent"
@@ -16,71 +16,71 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stay Here"
+        android:text="@string/stay_here"
         android:textColor="@color/logoOne"
         android:fontFamily="cursive"
-        android:textSize="35dp"
+        android:textSize="@dimen/thirtysp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="@dimen/fifty"/>
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
+        android:layout_marginTop="@dimen/twentyfour"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/homelogo"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="@dimen/thirty"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_marginRight="@dimen/thirty"
         android:layout_height="match_parent">
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/fourty"
             android:drawableLeft="@drawable/ic_username"
             android:background="@drawable/edit_text"
-            android:hint="Username"
-            android:elevation="5dp"
-            android:paddingLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:textColorHint="#d4d8dc"/>
+            android:hint="@string/username"
+            android:elevation="@dimen/five"
+            android:paddingLeft="@dimen/ten"
+            android:layout_marginTop="@dimen/ten"
+            android:textColorHint="@color/colorhint"/>
         <EditText
             android:id="@+id/password"
-            android:paddingLeft="10dp"
+            android:paddingLeft="@dimen/ten"
             android:drawableLeft="@drawable/security"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/twenty"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:hint="Password"
+            android:layout_height="@dimen/fourty"
+            android:hint="@string/password"
             android:background="@drawable/edit_text"
-            android:drawablePadding="5dp"
+            android:drawablePadding="@dimen/five"
             android:inputType="textPassword"
-            android:textColorHint="#d4d8dc"/>
+            android:textColorHint="@color/colorhint"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawablePadding="5dp"
-            android:layout_marginTop="20dp"
-            android:text="Login"
+            android:drawablePadding="@dimen/five"
+            android:layout_marginTop="@dimen/twenty"
+            android:text="@string/login"
             android:onClick="loginToMainActivity"
             android:drawableLeft="@drawable/ic_signin"
-            android:textColor="#ffffff"
+            android:textColor="@color/white"
             android:background="@drawable/button_bg"
-            android:textSize="20dp"
+            android:textSize="@dimen/twenty"
             android:id="@+id/singingIn"
-            android:padding="10dp"
+            android:padding="@dimen/ten"
             android:fontFamily="sans-serif-condensed"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Sign Up"
-            android:textColor="#ed074c"
+            android:layout_marginTop="@dimen/twenty"
+            android:text="@string/sign_up"
+            android:textColor="@color/newpink"
             android:background="@drawable/sign_up"
-            android:textSize="20dp"
+            android:textSize="@dimen/twenty"
             android:fontFamily="sans-serif-condensed"/>
     </LinearLayout>
 </LinearLayout>

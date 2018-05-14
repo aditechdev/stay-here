@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="five">5dp</dimen>
+    <dimen name="fourty">40dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="twentyfour">24dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="thirtysp">35sp</dimen>
+    <dimen name="onesixty">160dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="oneeighty">180dp</dimen>
+    <dimen name="thirtytwo">32sp</dimen>
+    <dimen name="thirtytwosp">32sp</dimen>
+    <dimen name="twentyfivesp">25sp</dimen>
+    <dimen name="twentyfivesp">25sp</dimen>
+</resources>
