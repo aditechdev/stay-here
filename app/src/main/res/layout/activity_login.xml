@@ -65,10 +65,12 @@
             android:drawablePadding="5dp"
             android:layout_marginTop="20dp"
             android:text="Login"
+            android:onClick="loginToMainActivity"
             android:drawableLeft="@drawable/ic_signin"
             android:textColor="#ffffff"
             android:background="@drawable/button_bg"
             android:textSize="20dp"
+            android:id="@+id/singingIn"
             android:padding="10dp"
             android:fontFamily="sans-serif-condensed"/>
         <Button
