@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
+        <item android:id="@+id/nav_home" android:title="HOME"></item>
+        <item android:id="@+id/ssa" android:title="Boy's Pg"></item>
+        <item android:id="@+id/jja" android:title="Girl's Pg"></item>
+        <item android:id="@+id/cca" android:title="Flat"></item>
+        <item android:id="@+id/jjl" android:title="Hotel"></item>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_settings" android:title="Settings"></item>
+        <item android:id="@+id/nav_aboutus" android:title="About Us"></item>
+        <item android:id="@+id/nav_signOut" android:title="Sign Out"></item>
+
+    </group>
+</menu>

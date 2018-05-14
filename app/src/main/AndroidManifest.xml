@@ -19,7 +19,11 @@
         <activity
             android:name=".LoginActivity"
             android:theme="@style/AppThemeLogin"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppThemeMain">
+
+        </activity>
     </application>
+
 
 </manifest>
